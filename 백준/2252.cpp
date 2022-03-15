@@ -31,8 +31,6 @@ int main()
 				q.push(y);
 		}
 	}
-
-
 	for (int i = 1; i <= N; i++)
 	{
 		cout << result[i]<<" ";
