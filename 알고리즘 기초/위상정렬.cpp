@@ -18,7 +18,7 @@ void topologysort()
 	}
 	for (int i = 1; i <= n; i++)
 	{
-		if (q.empty())
+		if (q.empty()) //오류잡기임
 		{
 			printf("싸이클이 발생..");
 			return;
