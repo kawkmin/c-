@@ -29,7 +29,7 @@ void topologysort()
 		for (int i = 0; i < a[x].size(); i++)
 		{
 			int y = a[x][i];
-			if (--inDegree[y] == 0)
+			if (--inDegree[y] == 0)//if문에 만족하지 않아도, --는 실행됨
 				q.push(y);
 		}
 	}
