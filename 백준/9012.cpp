@@ -42,3 +42,5 @@ int main()
 		}
 	}
 }
+//다른 방법으로 여는 괄호면 push 닫는 괄호면 pop을 해서 마지막으로 stack을 확인 후, 여는 괄호가 있으면 false 없으면
+//push된 만큼 pop이 된 거니까, true
