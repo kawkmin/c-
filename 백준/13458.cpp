@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
 	int N, B, C, z;
-	long long result = 0;
+	long long result = 0; //1000000*1000000Àº 21¾ï(int)À» ³Ñ±è!
 	vector<int> A;
 	cin >> N;
 	for (int i = 0; i < N; i++)
