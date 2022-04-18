@@ -1,10 +1,11 @@
+@@ - 1, 17 + 1, 8 @@
 #include<iostream>
 #include<string>
 
 using namespace std;
 
 int main()
-{	
+{
 	string A, B, C, D;
 	cin >> A >> B >> C >> D;
 	string X, Y;
@@ -13,5 +14,6 @@ int main()
 	long long x, y;
 	x = stoll(X);
 	y = stoll(Y);
-	cout << x+y;
+	cout << x + y;
+
 }
