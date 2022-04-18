@@ -7,7 +7,7 @@ typedef struct node* treePointer;
 struct node {
 	int data;
 	treePointer leftChild, rightChild;
-}; node;
+}
 
 void preorder(treePointer ptr)
 {
