@@ -8,7 +8,7 @@ int main()
 	int N,title=0,k=0;
 	int x[100001];
 	cin >> N;
-	for (long long i = 666; i < 20000000; i++)
+	for (long long i = 666;; i++)
 	{
 		int cnt = 0;
 		string s = to_string(i);
