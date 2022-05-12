@@ -18,8 +18,7 @@ void bfs(int a)
 		if (x == K)
 		{
 			mn = cnt;              //발견한게 바로 최소값임 bfs
-			q.pop();
-			return;
+			break;
 		}
 		q.pop();
 		for (int i = 0; i < 3; i++)
