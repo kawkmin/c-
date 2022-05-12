@@ -3,7 +3,7 @@
 
 using namespace std;
 queue<pair<int, int>> q;
-int N, K, mn = 987654321;
+int N, K, mn ;
 int dx[2] = { -1,1 };
 int visit[100001];    //방문한 지점을 다시 q에 넣으면 메모리초과+시간 오래걸림
 
@@ -15,17 +15,9 @@ void bfs(int a)
 	{
 		int x = q.front().first;
 		int cnt = q.front().second;
-		if (cnt > mn)
-		{
-			q.pop();
-			return;
-		}
 		if (x == K)
 		{
-			if (cnt < mn)
-			{
-				mn = cnt;
-			}
+			mn = cnt;              //발견한게 바로 최소값임 bfs
 			q.pop();
 			return;
 		}
