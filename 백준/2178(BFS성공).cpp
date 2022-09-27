@@ -31,7 +31,7 @@ void mage(int xx,int yy)
 				value[ax][ay] = value[x][y] + 1;
 				ch[ax][ay] = 1;                     //순회하는 부분은 탐색하지 않음 
 				q.push(make_pair(ax, ay));		    //dfs일 경우 나오면서 visit을 다 0으로 바꿔줘서 최단거리가 아닌 곳도 무조건 다 감
-			}										//예를 들어 (5,5)의 위치를 가는데 dfs는 그 거리를 둘러가서 가는데 bfs는 최단으로만 감
+			}										//예를 들어 (5,5)의 위치를 가는데 dfs는 그 거리를 둘러가서 가는데 bfs는 최단으로만 감 / queue의 특성 
 		}
 	}
 
