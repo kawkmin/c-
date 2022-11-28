@@ -14,3 +14,10 @@ str.erase(remove(str.begin(),str.end(),','),str.end()); =split효과
 백터안 가장 큰 값 찾는법
 
 - int max=*max_element(v.begin(),v,end());
+
+한 문자열에 많은 변수가 주어질 때, s.substr은 시간이 오래걸리므로 stream 사용
+
+띄어쓰기 기준으로 변수가 저장됨
+-#include <sstream>
+stringstream ss(문자열);
+ss >> 변수1 >> 변수2 >> 변수3.....변수X;
